@@ -1347,8 +1347,8 @@ a.cd-top:hover {
 
 /***video****/
 .video_cat{}
-.video_player{ height:472px;}
-.video_player video{ max-width:840px; width:100%; height:auto;}
+.video_player{ height:472px; overflow:hidden;}
+.video_player video{ max-width:840px; width:100%; height:472px;}
 .mejs-background, .mejs-mediaelement, .mejs-poster, .mejs-overlay, .mejs-container { width: 100% !important;   height: 100% !important;}
 /***promo_page***/
 .promo_page{ margin-top:40px;}

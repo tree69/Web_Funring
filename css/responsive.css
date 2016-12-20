@@ -155,7 +155,8 @@
 	.jp-audio .jp-type-single .jp-progress{ width:66%; left:0;}
 	.jp-audio .jp-type-single .jp-time-holder {right: 14%; width: 11%;}
 	.jp-audio .jp-controls {width: 10%;padding: 4px 0px;}
-	.video_player{ height:415px;}
+	.video_player, .video_player video{ height:415px;}
+	
 	
 }
 
@@ -170,7 +171,7 @@
 .jp-volume-controls {
     width: 11%;
 }
-.video_player{ height:320px;}
+.video_player, .video_player video{ height:320px;}
 }
 
 @media (max-width: 450px) {
@@ -221,7 +222,7 @@
 	.jp-audio .jp-type-single .jp-time-holder{ display:none;}
 	.jp-volume-controls{ width:21%;}
 	
-	.video_player{ height:200px;}
+	.video_player, .video_player video{ height:250px;}
 	
 	.list_item li:nth-child(2n+1) { clear: left !important;}
 }	
